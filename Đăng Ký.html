@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tài khoản</title>
+    <link href="css/Đăng Ký.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header"></div>
+        <div class="container">
+            <a href="index.html" >Trang chủ</a>
+            <a href="Khu du lịch.html">Khu du lịch</a>
+            <a href="Quà lưu niệm.html">Quà lưu niệm</a>
+            <a href="Đăng nhập.html" style="float: right">Đăng nhập</a>
+            <a href="Quên mật khẩu.html" style="float: right">Quên mật khẩu</a>
+        </div>
+    </header>
+    <main>
+        <div class="right-column">
+            <img src="./images/chonoi.jpg">
+        </div>
+        <div class="left-column">
+            <div class="from-group">
+                <label>Họ và tên:</label> 
+                <br> 
+                <input class="form-control" type="text" name="username">
+            </div>
+        </div>
+        <br>
+        <fieldset>
+            <div class="from-group"></div>
+            <legend>Giới tính</legend> 
+            <br>
+            <input type="radio" value="Nam" name="gender" />Nam
+            <input type="radio" value="Nữ" name="gender" />Nữ
+            </div>
+        </fieldset>
+        <br>
+        <div class="from-group">
+            <label>Ngày sinh:</label> 
+            <br> 
+            <input class="form-control" type="date" name="username">
+        </div>
+        <br>
+        <div class="from-group">
+            <label>Email:</label> 
+            <br> 
+            <input class="form-control" type="email" max="10" step="0.25" name="username">
+        </div>
+        <br>
+        <div class="from-group">
+            <label>Nghề nghiệp:</label> 
+            <br>
+            <input class="form-control" type="text" id="txt_ide" list="ide" />
+            <datalist id="ide">
+                <option value="Bác sĩ"></option>
+                <option value="IT"></option>
+                <option value="Kỹ sư"></option>
+                <option value="Kinh doanh"></option>
+                <option value="Kiến trúc sư"></option>
+            </datalist>
+        </div>
+        <br>
+        <fieldset>
+            <div class="from-group"></div>
+            <legend>Sở thích</legend>
+            <br>
+            <input type="checkbox" value="thethao" name="gender" />Thể thao
+            <input type="checkbox" value="dulich" name="gender" />Du lịch
+            <input type="checkbox" value="amnhac" name="gender" />Âm nhạc
+            <input type="checkbox" value="amthuc" name="gender" />Ẩm thực
+            </div>
+        </fieldset>
+        <br>
+        <div class="from-group">
+            <label> Ghi chú:</label> 
+            <br> 
+            <textarea class="form-control" type="text" name="ghichu" rows="5" cols="44"></textarea>
+        </div>
+        <br>
+        <div class="from-group">
+            <input class="form-button" type="submit" value="Đăng ký">
+            <input class="form-button" type="submit" value="Nhập lại">
+        </div>
+    </main>
+    <div id="footer">
+        <div class="tr1">
+            <H5>THÔNG TIN LIÊN HỆ</H5>
+            IG:BenTre_VN
+            <br> Phone:+84987654321
+            <br> Gmail: Bentrevn@gmail.com.vn
+        </div>
+        <div class="ph1">
+            <h5>TRA CỨU THÔNG TIN</h5>
+            <p>Địa chỉ: 7A Đồng Khởi, phường An Hội<br />
+            Điện thoại: 0987654321</p>
+            <br>
+        </div>
+        <div class="ph2">
+            <img src="images/Logo.png" height="170px" width="150px">
+        </div>
+    </div>
+</body>
+</html>

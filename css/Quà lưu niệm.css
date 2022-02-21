@@ -1,0 +1,212 @@
+.header {
+    padding-top: 33px;
+    text-align: center;
+    background-image:url(../images/2.jpg);
+    height: 150px;
+    width: 1248px;
+    color:rgb(121, 21, 4)
+}
+.header h1{font-size: 40px;}
+
+h3 {color:tomato}
+
+/* Style the top navigation bar */
+.topnav{
+    margin-bottom: 40px;
+}
+.topnav>ul {
+    margin: 0px;
+    padding: 0 10px;
+    list-style: none;
+    background-color: #34d657;
+    height: 40px;
+    text-align:left;
+}
+.topnav>ul>li>a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.topnav>ul>a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.topnav>ul>li>a {
+    float: left;
+    margin: 0 5px;
+}
+
+.topnav>ul>li {
+    position: relative;
+    display: inline-block;
+}
+.topnav ul ul{
+    position: absolute;
+    display:none;
+    overflow: hidden;
+    padding:0px;
+    margin:40px 5px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+}
+.topnav ul ul a{
+    display: block;
+    line-height:30px;
+    color:rgb(170, 102, 57);
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+    margin-left:0px;
+}
+.topnav>ul>li:hover>ul {
+    display: block;
+}
+.topnav ul ul a:hover {
+    background-color: #abd6e4;
+    color: rgb(27, 116, 231);
+}
+
+.topnav .search {
+    line-height: 45px;
+    float: right;
+    margin-right: 50px;
+    font-size: 20px;
+    border: none;
+}
+.search{
+    margin-top: -4px;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: #abd6e4;
+    color: rgb(27, 116, 231);
+}
+
+.card-news:hover {
+    background-color: #f5f0eb;
+}
+
+    .col-25 {
+        width:25%;
+        float:left;
+    }
+    .col-25 img:hover {
+        transform: scale(1.1);
+    }
+    .prod {
+        border-radius:10px;
+        box-shadow:0 0 5px gray;
+        margin:5px;
+        padding:5px;
+        text-align:center;
+        position:relative;
+    }
+    .prod>.icons>img:hover {
+        box-shadow: 0 0 20px rgb(3, 248, 105);
+        background-color: rgb(202, 248, 221);
+    }
+    .prod>.name {
+        font-variant:small-caps;
+        color:orangered;
+    }
+    .prod>.image {
+        max-width:98%;
+        height:150px;
+        margin-bottom:10px;
+    }
+    .prod>.price {
+        position:absolute;
+        left:5px;
+        bottom:5px;
+        font-family:Impact;
+        font-size:25px;
+        color:rgb(9, 248, 81);
+    }
+    .prod>.icons {
+        position:absolute;
+        right:5px;
+        bottom:5px;
+        width:25px;
+        padding:10px;
+    }
+    .prod>.new-icon {
+        position:absolute;
+        top:0px;
+        right:0px;
+    }
+    .container{
+        margin:0 auto;
+    }
+    .container > header{
+        background-image: url(../images/D3.jpg);
+        background-size:100% 100%;
+        height:0px;
+        padding-bottom:25%;
+    }
+    
+    .container > nav{
+        line-height:40px;
+        background-color:rgb(223, 165, 144);
+        color:white;
+        text-align:center;
+        font-variant:small-caps;
+    }
+    #footer {
+        background: #34d657;
+        width: 100%;
+        height: 180px;
+        color: rgb(14, 13, 13);
+        clear: left;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        }
+        
+        #footer .tr1 {
+        width: 25%;
+        height: 100%;
+        float: left;
+        text-align: justify;
+        margin-left: 100px;
+        }
+        
+        #footer .ph1 {
+        width: 25%;
+        height: 100%;
+        float: left;
+        text-align: justify;
+        }
+        
+        #footer .ph1 .H5 {
+        margin-left: 20px;
+        }
+        
+        #footer .ph2 {
+        width: 35%;
+        height: 100%;
+        float: right;
+        margin-left: -100px;
+        border: 1px solid #ccc;
+        border: none;
+        text-align: justify;
+        }
+        
+        #footer .ph1 a {
+        color: rgb(252, 228, 192);
+        }
+        
+        #footer .ph1 a:hover {
+        color: white;
+        }
