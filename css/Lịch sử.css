@@ -149,11 +149,12 @@ p {
     margin-left: 20px;
     }
     
-    #footer .ph2 {
-    width: 35%;
-    height: 100%;
+    #footer .ph2 img {
+    height:170px; 
+    width: 140px;
     float: right;
     margin-left: -100px;
+    margin-right: 300px;
     border: 1px solid #ccc;
     border: none;
     text-align: justify;
